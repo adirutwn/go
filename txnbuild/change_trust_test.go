@@ -21,7 +21,7 @@ func TestChangeTrust_BuildXDR(t *testing.T) {
 
 		changeTrustOp := ChangeTrust{
 			Line: CreditAsset{
-				Code: "ABC",
+				Code:   "ABC",
 				Issuer: kp0.Address(),
 			},
 			Limit: "100",
@@ -56,7 +56,7 @@ func TestChangeTrust_BuildXDR(t *testing.T) {
 
 		changeTrustOp := ChangeTrust{
 			Line: CreditAsset{
-				Code: "ABC",
+				Code:   "ABC",
 				Issuer: kp0.Address(),
 			},
 			Limit: "100",
