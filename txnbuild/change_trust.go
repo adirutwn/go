@@ -49,5 +49,5 @@ func (ct *ChangeTrust) BuildXDR() (xdr.Operation, error) {
 	}
 	op := xdr.Operation{Body: body}
 	SetOpSourceAccount(&op, ct.SourceAccount)
-	return xdr.Operation{Body: body}, nil
+	return op, nil
 }
